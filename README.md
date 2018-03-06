@@ -113,6 +113,10 @@ If you prefer to build the image yourself follow up down below.
 ### Watch pods being created
 
     $ kubectl --context minikube  get pods -w --show-labels
+    
+### Update cluster
+
+    $ kubectl apply -f manifests/minimal-postgres-manifest.yaml
 
 ### Connect to PostgreSQL
 
